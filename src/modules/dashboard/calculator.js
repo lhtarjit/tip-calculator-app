@@ -59,7 +59,7 @@ const Calculator = () => {
 	}, [state.bill, state.tip, state.people, state?.customTip]);
 
 	return (
-		<div className="flex xs:flex-col lg:flex-row bg-white py-21 px-15.75 rounded-15 justify-between gap-15.75">
+		<div className="flex w-full xs:flex-col lg:flex-row bg-white px-10 py-10 lg:py-21 lg:px-15.75 rounded-15 justify-between gap-15.75">
 			<div className="flex flex-col w-full lg:w-1/2 gap-10 justify-between py-2 pl-2 lg:pr-10">
 				<div className="flex flex-col w-full gap-4">
 					<span className="font-IBMPlexMonoMedium text-ft2 text-grey-100">
@@ -164,7 +164,7 @@ const Calculator = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex flex-col w-full lg:w-1/2  bg-green-100 rounded-15 p-14.25 justify-between gap-16">
+			<div className="flex flex-col w-full lg:w-1/2  bg-green-100 rounded-15 p-6 xl:p-14.25 justify-between gap-16">
 				<div className="flex flex-col w-full gap-17.5">
 					<div className="flex gap-4">
 						<div className="flex flex-col w-full">
