@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: "IBMPlexMono-ExtraLight";
+		src: url("../src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-Light.ttf");
+	}
+	@font-face {
+		font-family: "IBMPlexMono-Light";
+		src: url("../src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-Light.ttf");
+	}
+	@font-face {
+		font-family: "IBMPlexMono-Regular";
+		src: url("../src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf");
+	}
+	@font-face {
+		font-family: "IBMPlexMono-Medium";
+		src: url("../src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-Medium.ttf");
+	}
+	@font-face {
+		font-family: "/IBMPlexMono-SemiBold";
+		src: url("../src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-SemiBold.ttf");
+	}
+	@font-face {
+		font-family: "/IBMPlexMono-Bold";
+		src: url("../src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-Bold.ttf");
+	}
+}
+
+/* body {
+	width: 100%;
+	height: 100%;
+}
+
+#root {
+	width: 100%;
+	height: 100vh;
+} */
