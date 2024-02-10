@@ -180,7 +180,7 @@ const Calculator = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex flex-col w-full  lg:w-1/2  bg-green-100 rounded-15 p-14.25 justify-between">
+			<div className="flex flex-col w-full lg:w-1/2  bg-green-100 rounded-15 p-14.25 justify-between gap-16">
 				<div className="flex flex-col w-full gap-17.5">
 					<div className="flex gap-4">
 						<div className="flex flex-col w-full">
