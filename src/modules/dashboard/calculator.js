@@ -55,6 +55,7 @@ const Calculator = () => {
 		if (state?.bill && (state?.tip || state?.customTip) && state?.people) {
 			calculateAmount();
 		}
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [state.bill, state.tip, state.people, state?.customTip]);
 
 	return (
@@ -123,23 +124,6 @@ const Calculator = () => {
 									tip: 0,
 								}));
 							}}
-							// onFocus={(e) => {
-							// 	setIsFocused(true);
-							// 	setState((prev) => ({
-							// 		...prev,
-							// 		tip: 0,
-							// 	}));
-							// 	e.target.placeholder = "";
-							// }}
-							// onBlur={(e) => {
-							// 	setIsFocused(false);
-							// 	const customTipValue = parseFloat(e.target.value);
-							// 	setState((prev) => ({
-							// 		...prev,
-							// 		tip: isNaN(customTipValue) ? 0 : customTipValue,
-							// 	}));
-							// 	e.target.placeholder = "Custom";
-							// }}
 							className="w-full h-full bg-grey-10 text-end text-ft5 text-green-100 font-IBMPlexMonoRegular font-semibold outline-none placeholder:text-ft5 placeholder:font-IBMPlexMonoMedium placeholder:font-semibold placeholder:text-green-100 placeholder:text-center"
 						/>
 						{isFocused && (
